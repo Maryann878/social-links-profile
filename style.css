@@ -26,8 +26,7 @@ text-align: center;
       height: auto;
 
    max-width: 375px;
-padding: 2rem;
-margin: 50px;
+margin: 20px;
 justify-content: center;
 border: 10px solid hsl(0, 0%, 12%);
 background: var(--grey-800);
@@ -46,7 +45,8 @@ h2{
 font-weight: normal;
     color: var(--white);
     margin-bottom: 10px;
-          font-size: 30px;
+          
+  font-size: clamp(20px, 5vw, 30px);
 
 }
 
@@ -74,7 +74,8 @@ p{
 
 .button{
     height: 20px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     margin: 10px;
     background-color: var(--grey-700);
     color: var(--white);
